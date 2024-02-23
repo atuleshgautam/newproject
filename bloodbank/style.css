@@ -1,0 +1,180 @@
+/* Apply margin and padding reset to all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(newbg.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e70a0a;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* Text box styles */
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+}
+
+/* Hero button styles */
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #f00c0c;
+    padding: 12px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #9c0303;
+    background: #e70606;
+    transition: 1s;
+}
+.ABOUTUS{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(aboutus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.CAMPS{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(campaign.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.MISSION{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(mission.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.CONTACT{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(contactus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(blooddonate.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+.footer p {
+    color: red;
+}
+
+.icons .fa {
+    color: #f0071b;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    text-decoration: none;
+}
+.sub-header{
+    height: 10vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: rgb(250, 3, 24);
+}
+.sub-header h1{
+    margin-top: 10px;
+}
